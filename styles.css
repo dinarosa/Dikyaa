@@ -1,0 +1,534 @@
+/* Reset browser default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+/* Body Styling */
+body {
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+nav .logo h1 {
+    font-size: 1.5rem;
+    color: #333;
+    font-weight: bold;
+}
+
+nav .nav-links {
+    list-style: none;
+    display: flex;
+}
+
+nav .nav-links li {
+    margin-left: 2rem;
+}
+
+nav .nav-links li a {
+    text-decoration: none;
+    color: #333;
+    font-size: 1rem;
+}
+
+nav .nav-links li a:hover {
+    color: #f48c06;
+}
+
+/* Hero Section */
+header {
+    background-color: #fff;
+    text-align: center;
+    padding: 5rem 1rem;
+    background-image: url('background-pattern.png');
+    background-size: cover;
+}
+
+header .hero h1 {
+    font-size: 2.5rem;
+    color: #333;
+}
+
+header .hero p {
+    margin: 1rem 0;
+    font-size: 1.1rem;
+}
+
+header .hero img {
+    margin: 2rem 0;
+    max-width: 300px;
+    width: 100%;
+}
+
+header .hero button {
+    background-color: #f48c06;
+    color: #fff;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+header .hero button:hover {
+    background-color: #ff9f1c;
+}
+
+/* Signup Section */
+.signup-section {
+    background-color: #f7f7f7;
+    padding: 3rem 1rem;
+    text-align: center;
+}
+
+.signup-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.signup-section p {
+    font-size: 1.1rem;
+    margin-bottom: 1.5rem;
+}
+
+.signup-section form {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+.signup-section input[type="email"] {
+    padding: 0.75rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    width: 80%;
+    max-width: 400px; /* Width for larger screens */
+}
+
+.signup-section button {
+    background-color: #f48c06;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.signup-section button:hover {
+    background-color: #ff9f1c;
+}
+
+.signup-section .disclaimer {
+    font-size: 0.9rem;
+    color: #888;
+    margin-top: 1rem;
+}
+
+/* Content Section */
+.content {
+    padding: 3rem 1rem;
+    text-align: center;
+}
+
+.content h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.content p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.content img {
+    max-width: 150px;
+    margin-top: 2rem;
+}
+
+/* Testimonials Section */
+.testimonials {
+    background-color: #f7f7f7;
+    padding: 3rem 1rem;
+    text-align: center;
+}
+
+.testimonials h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.testimonials .testimonial {
+    background-color: #fff;
+    padding: 2rem;
+    margin: 1rem 0;
+    border-radius: 5px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.05);
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.testimonials blockquote {
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.testimonials cite {
+    display: block;
+    margin-top: 1rem;
+    font-size: 1rem;
+    color: #333;
+    font-style: italic;
+}
+
+/* Book Section */
+.book-section {
+    padding: 3rem 1rem;
+    text-align: center;
+}
+
+.book-section h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.book-section .book-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+
+.book-section img {
+    max-width: 250px;
+    width: 100%;
+}
+
+.book-section .book-details {
+    max-width: 400px;
+    text-align: left;
+}
+
+.book-section .book-details h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.book-section .book-details p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+.book-section .book-details button {
+    background-color: #f48c06;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.book-section .book-details button:hover {
+    background-color: #ff9f1c;
+}
+
+/* Newsletter Section */
+.newsletter-section {
+    background-color: #f7f7f7;
+    padding: 3rem 1rem;
+    text-align: center;
+}
+
+.newsletter-section h2 {
+    font-size: 2rem;
+    margin-bottom: 1.5rem;
+}
+
+.newsletter-section p {
+    font-size: 1.1rem;
+    margin-bottom: 2rem;
+}
+
+.newsletter-section form {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+.newsletter-section input[type="email"] {
+    padding: 0.75rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+    width: 80%;
+    max-width: 400px; /* Width for larger screens */
+}
+
+.newsletter-section button {
+    background-color: #f48c06;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.newsletter-section button:hover {
+    background-color: #ff9f1c;
+}
+
+/* Footer Section */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+footer a {
+    color: #f48c06;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer .social-links {
+    list-style: none;
+    margin: 1rem 0;
+    padding: 0;
+}
+
+footer .social-links li {
+    display: inline-block;
+    margin: 0 1rem;
+}
+
+footer .social-links li a {
+    color: #fff;
+    font-size: 1.5rem;
+}
+
+footer p {
+    margin-top: 1rem;
+    font-size: 0.9rem;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+    nav .nav-links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav .nav-links li {
+        margin: 0.5rem 0;
+    }
+
+    header .hero h1 {
+        font-size: 2rem;
+    }
+
+    header .hero p {
+        font-size: 1rem;
+    }
+
+    header .hero button {
+        padding: 0.5rem 1rem;
+    }
+
+    .signup-section h2,
+    .content h2,
+    .testimonials h2,
+    .book-section h2,
+    .newsletter-section h2 {
+        font-size: 1.5rem;
+    }
+
+    .signup-section p,
+    .content p,
+    .testimonials blockquote,
+    .book-section .book-details p,
+    .newsletter-section p {
+        font-size: 1rem;
+    }
+
+    .signup-section input[type="email"],
+    .newsletter-section input[type="email"] {
+        width: 90%; /* Increased width for better fit */
+    }
+
+    .book-section .book-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .book-section .book-details {
+        text-align: center;
+    }
+
+    footer .social-links li {
+        margin: 0 0.5rem;
+    }
+
+
+@media (max-width: 480px) {
+    nav .logo h1 {
+        font-size: 1.2rem;
+    }
+
+    header .hero h1 {
+        font-size: 1.5rem;
+    }
+
+    header .hero p {
+        font-size: 0.9rem;
+    }
+
+    header .hero button {
+        padding: 0.5rem 1rem;
+    }
+
+    .signup-section h2,
+    .content h2,
+    .testimonials h2,
+    .book-section h2,
+    .newsletter-section h2 {
+        font-size: 1.25rem;
+    }
+
+    .signup-section p,
+    .content p,
+    .testimonials blockquote,
+    .book-section .book-details p,
+    .newsletter-section p {
+        font-size: 0.9rem;
+    }
+
+    footer p {
+        font-size: 0.8rem;
+    }
+}
+nav.scrolled {
+    background-color: rgba(255, 255, 255, 0.8);
+    transition: background-color 0.3s ease;
+}
+
+.scroll-top-button {
+    display: none; /* Sembunyikan tombol secara default */
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 10px 15px;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.scroll-top-button:hover {
+    background-color: #0056b3;
+}
+}
+/* Konfeti Partikel */
+.confetti {
+    position: fixed;
+    width: 10px;
+    height: 10px;
+    background-color: hsl(200, 70%, 50%);
+    animation: fall 3s linear infinite;
+}
+
+@keyframes fall {
+    to {
+        transform: translateY(100vh) rotate(360deg);
+    }
+}
+
+/* Partikel Mengambang */
+.floating {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    background-color: rgba(255, 255, 255, 0.7);
+    border-radius: 50%;
+    animation: float 10s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-50px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+
+/* Efek Getaran */
+.shake {
+    animation: shake 0.5s;
+}
+
+@keyframes shake {
+    0%, 100% {
+        transform: translateX(0);
+    }
+    25% {
+        transform: translateX(-10px);
+    }
+    50% {
+        transform: translateX(10px);
+    }
+    75% {
+        transform: translateX(-10px);
+    }
+}
+
+/* Fade-in dan Fade-out */
+.fade-in-out {
+    animation: fadeInOut 3s forwards;
+}
+
+@keyframes fadeInOut {
+    0% {
+        opacity: 0;
+    }
+    50% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
+}
